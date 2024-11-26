@@ -12,42 +12,71 @@
     <main>
         <header>
             <figure class="logo">
-                <img src="#" alt="logo">
+                <img src="logo.png" alt="logo">
             </figure>
             <nav>
-                <svg></svg>
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14" />
+                </svg>
             </nav>
         </header>
 
         <section class="slider">
             <div class="list">
                 <div class="item active">
-                    <div class="image" style="--url: url('#1')"></div>
+                    <div class="image"
+                        style="--url: url('https://i.pinimg.com/736x/8f/65/63/8f6563a9d339ed641b026cb444d1fe3d.jpg')">
+                    </div>
                     <div class="content">
                         <h2>Slider Image Magic</h2>
-                        <p>Voluptatem alias nostrum quibusdam deleniti hic ipsum, totam officia delectus magnam culpa mollitia modi exercitationem, quae nisi consectetur aspernatur quod eveniet illum.</p>
+                        <p>Voluptatem alias nostrum quibusdam deleniti hic ipsum, totam officia delectus magnam culpa
+                            mollitia modi exercitationem, quae nisi consectetur aspernatur quod eveniet illum.</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
                 </div>
                 <div class="item">
-                    <div class="image" style="--url: url('#2')"></div>
+                    <div class="image"
+                        style="--url: url('https://i.pinimg.com/736x/f6/2d/ed/f62ded0171b4e4bd4cff95b176d675e1.jpg')">
+                    </div>
                     <div class="content">
                         <h2>Slider Image Magic</h2>
-                        <p>Voluptatem alias nostrum quibusdam deleniti hic ipsum, totam officia delectus magnam culpa mollitia modi exercitationem, quae nisi consectetur aspernatur quod eveniet illum.</p>
+                        <p>Voluptatem alias nostrum quibusdam deleniti hic ipsum, totam officia delectus magnam culpa
+                            mollitia modi exercitationem, quae nisi consectetur aspernatur quod eveniet illum.</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
                 </div>
                 <div class="item">
-                    <div class="image" style="--url: url('#3')"></div>
+                    <div class="image"
+                        style="--url: url('https://i.pinimg.com/736x/e3/28/52/e32852724e971e22608a560a732a6540.jpg')">
+                    </div>
                     <div class="content">
                         <h2>Slider Image Magic</h2>
-                        <p>Voluptatem alias nostrum quibusdam deleniti hic ipsum, totam officia delectus magnam culpa mollitia modi exercitationem, quae nisi consectetur aspernatur quod eveniet illum.</p>
+                        <p>Voluptatem alias nostrum quibusdam deleniti hic ipsum, totam officia delectus magnam culpa
+                            mollitia modi exercitationem, quae nisi consectetur aspernatur quod eveniet illum.</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
                 </div>
             </div>
+            <div class="arrows">
+                <button id="prev">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 12h14M5 12l4-4m-4 4 4 4" />
+                    </svg>
+                </button>
+                <button id="next">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 12H5m14 0-4 4m4-4-4-4" />
+                    </svg>
+                </button>
+            </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
